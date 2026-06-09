@@ -1,0 +1,17 @@
+num = int(input("Enter a number"))
+
+#positive / negative check
+if num > 0:
+    print("positive")
+elif num < 0:
+    print("negative")
+else:
+    print("zero")
+
+    #EVEN / ODD check
+if num % 2 == 0 :
+    print("Even")
+else:
+    print("odd")        
+    
+    #2PROJECT
